@@ -1,0 +1,55 @@
+/**
+*   Layer - Стили для отображение слоёв покрытий
+*
+*/
+.popover { min-width: 320px; } /* Max Width of the popover (depending on the container!) */ 
+
+
+.layer-item-main { cursor: pointer; position: relative; }
+.layer-item         { margin-bottom: -45px; }
+.layer-item-list    { margin-bottom: -15px; }
+
+.layer-top-main { border-left: 30px solid transparent; border-right: 30px solid transparent; height: 0; margin:0 auto; }
+.layer-top          { border-bottom: 70px solid; width: 220px; }
+.layer-top-list     { border-bottom: 30px solid; width: 170px; }
+
+.layer-slice-main { margin:0 auto;text-align: center; }
+.layer-slice        { width: 220px; height: 27px; }
+.layer-slice-list   { font-size: 12px; width: 170px; height: 19px; line-height: 20px; }
+
+.line-item-main { cursor: pointer; position: relative; }
+.line-item          { margin-bottom: -45px; }
+.line-item-list     { margin-bottom: -20px; }
+
+.line-top-main { border-left: 22px solid transparent; border-right: 22px solid transparent; height: 0; margin:0 auto; }
+.line-top           { border-bottom: 70px solid; width: 116px; }
+.line-top-list      { border-bottom: 20px solid; width: 67px; }
+
+.line-slice-main { margin:0 auto; text-align: center;}
+.line-slice         { width: 116px; height: 13px; }
+.line-slice-list    { width: 67px; height: 6px; }
+    
+
+.layer-video-item-main { cursor: pointer; position: relative; }
+.layer-video-item         { margin-bottom: -45px; }
+.layer-video-item-list    { margin-bottom: -15px; }
+
+.layer-video-top-main { border-left: 30px solid transparent; border-right: 30px solid transparent; height: 0; margin:0 auto; }
+.layer-video-top          { border-bottom: 60px solid; width: 190px; }
+.layer-video-top-list     { border-bottom: 30px solid; width: 170px; }
+
+.layer-video-slice-main { margin:0 auto;text-align: center; }
+.layer-video-slice        { width: 190px; height: 25px; font-size: 13px;}
+.layer-video-slice-list   { font-size: 12px; width: 170px; height: 19px; line-height: 20px; }
+
+.line-video-item-main { cursor: pointer; position: relative; }
+.line-video-item          { margin-bottom: -45px; }
+.line-video-item-list     { margin-bottom: -20px; }
+
+.line-video-top-main { border-left: 22px solid transparent; border-right: 22px solid transparent; height: 0; margin:0 auto; }
+.line-video-top           { border-bottom: 70px solid; width: 116px; }
+.line-video-top-list      { border-bottom: 20px solid; width: 67px; }
+
+.line-video-slice-main { margin:0 auto; text-align: center;}
+.line-video-slice         { width: 116px; height: 13px; }
+.line-video-slice-list    { width: 67px; height: 6px; }
