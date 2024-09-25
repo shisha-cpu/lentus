@@ -794,19 +794,19 @@ blockquote {
 
 /* Background Image */
 .bg-image-1 {
-  background-image: url(images/bg/1.jpg);
+  background-image: url(images/bg/1.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
 
 .bg-image-2 {
-  background-image: url(images/bg/2.jpg);
+  background-image: url(images/bg/2.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
 
 .bg-image-3 {
-  background-image: url(images/bg/3.jpg);
+  background-image: url(images/bg/3.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
@@ -6631,3 +6631,6 @@ p.footer-copyright {
   font-size: 30px;
 }
 /*# sourceMappingURL=style.css.map */
+.salam{
+  width: 10000;
+}
