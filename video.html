@@ -417,13 +417,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
         <script src="ie8/1.1.2/videojs-ie8.min.js"></script>
         <script src="7.10.2/video.js"></script>
-        
+        <style>
+            .video-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+            .video-item {
+                width: 48%; /* 2 видео в строке с небольшим отступом */
+                margin-bottom: 10px;
+            }
+            video {
+                width: 100%; /* Полная ширина контейнера */
+                height: auto; /* Автоматическая высота */
+            }
+        </style>
         <div class="row pb-5">
             <div class="col-12 offset-0 m-0 p-0">
                 <div class="section-title pl-3 pr-3"> 
                     <h2 style="font-size: 26px">Монтаж спортивного покрытия LENTUS PLAY SOFT</h2>
                 </div>
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-lg-9 pb-3">
                         <video id="video_1" class="video-js vjs-big-play-centered" controls="true" preload="auto" poster="source/video/video_1.jpg" data-setup="{}">
 
@@ -534,17 +548,102 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             
                         </div>
                     </div>
-                </div>
-                
+                </div> -->
+                <div class="video-container">
+                    <div class="video-item">
+                        <video controls>
+                            <source src="./img/video/1.mp4" type="video/mp4">
+                            <!-- <source src="./img/video/1.mov" type="video/quicktime"> -->
+                            Ваш браузер не поддерживает видео.
+                        </video>
+                    </div>
+                    <div class="video-item">
+                        <video controls>
+                            <source src="./img/video/2.mp4" type="video/mp4">
+                            <source src="./img/video/2.mov" type="video/quicktime">
+                            Ваш браузер не поддерживает видео.
+                        </video>
+                    </div>
+                    <div class="video-item">
+                        <video controls>
+                            <source src="./img/video/3.mp4" type="video/mp4">
+                            <source src="./img/video/3.mov" type="video/quicktime">
+                            Ваш браузер не поддерживает видео.
+                        </video>
+                    </div>
+                    <div class="video-item">
+                        <video controls>
+                            <source src="./img/video/4.mp4" type="video/mp4">
+                            <source src="./img/video/4.mov" type="video/quicktime">
+                            Ваш браузер не поддерживает видео.
+                        </video>
+                    </div>
+                    <div class="video-item">
+                        <video controls>
+                            <source src="./img/video/5.mp4" type="video/mp4">
+                            <source src="./img/video/5.mov" type="video/quicktime">
+                            Ваш браузер не поддерживает видео.
+                        </video>
+                    </div>
+                    <div class="video-item">
+                        <video controls>
+                            <source src="./img/video/6.mp4" type="video/mp4">
+                            <source src="./img/video/6.mov" type="video/quicktime">
+                            Ваш браузер не поддерживает видео.
+                        </video>
+                    </div>
+                    <div class="video-item">
+                        <video controls>
+                            <source src="./img/video/7.mp4" type="video/mp4">
+                            <source src="./img/video/7.mov" type="video/quicktime">
+                            Ваш браузер не поддерживает видео.
+                        </video>
+                    </div>
+                    <div class="video-item">
+                        <video controls>
+                            <source src="./img/video/8.mp4" type="video/mp4">
+                            <source src="./img/video/8.mov" type="video/quicktime">
+                            Ваш браузер не поддерживает видео.
+                        </video>
+                    </div>
+                    <div class="video-item">
+                        <video controls>
+                            <source src="./img/video/9.mp4" type="video/mp4">
+                            <source src="./img/video/9.mov" type="video/quicktime">
+                            Ваш браузер не поддерживает видео.
+                        </video>
+                    </div>
+                    <div class="video-item">
+                        <video controls>
+                            <source src="./img/video/10.mp4" type="video/mp4">
+                            <source src="./img/video/10.mov" type="video/quicktime">
+                            Ваш браузер не поддерживает видео.
+                        </video>
+                    </div>
+                    <!-- <div class="video-item">
+                        <video controls>
+                            <source src="./img/video/11.mp4" type="video/mp4">
+                            <source src="./img/video/11.mov" type="video/quicktime">
+                            Ваш браузер не поддерживает видео.
+                        </video>
+                    </div>
+                    <div class="video-item">
+                        <video controls>
+                            <source src="./img/video/12.mp4" type="video/mp4">
+                            <source src="./img/video/12.mov" type="video/quicktime">
+                            Ваш браузер не поддерживает видео.
+                        </video>
+                    </div> -->
             </div>
         </div>
         
         <div class="row pt-5">
             <div class="col-12 offset-0 m-0 p-0">
+               
                 <style>
                     
                 </style>
-                <div class="section-title text-left">
+                <!-- <div class="section-title text-left">
                     <div class="section-title pl-3 pr-3"> 
                         <h2 style="font-size: 26px">Монтаж спортивного покрытия LENTUS CUSHION</h2>
                     </div>
@@ -560,11 +659,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         var player_2 = videojs('video_2');
                         player_2.fluid(true);
                     </script>
-                </div>
+                </div> -->
             </div>
         </div>
         
-        <div class="row pt-5">
+        <!-- <div class="row pt-5">
             <div class="col-12 offset-0 m-0 p-0">
                 <style>
                     
@@ -587,7 +686,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </script>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="row">
             <div class="col-xl-8 col-lg-10 col-12 offset-0">
                 <style>
