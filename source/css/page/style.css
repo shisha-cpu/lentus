@@ -6634,3 +6634,14 @@ p.footer-copyright {
 .salam{
   width: 10000;
 }
+.float-left1{
+  height: 140px;
+  width: 140px;
+}
+@media (max-width:770px) {
+  .float-left1{
+    height: 70px;
+    width: 70px;
+
+  }
+}
